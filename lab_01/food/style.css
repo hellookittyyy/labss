@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'lato';
+    src: url(Lato-Black.ttf);
+}
+
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    color: #111;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: url(images/header.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin-left: -50px;
+}
+
+header h1{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 80px 0 0 20px;
+}
+
+.content article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    margin-right: 25px ;
+}
+
+.content{
+    float: left;
+    width: 66.6%;
+}
+
+aside p{
+    width: 300px;
+}
+
+aside img{
+    margin-top: 30px;
+    width: 300px;
+    height: 150px;
+}
+
+
+button{
+    background-color: #FFFFFF;
+    border:1px solid #ec5353;
+    color: #ec5353;
+    padding: 10px 25px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ec5353;
+    color: white;
+}
