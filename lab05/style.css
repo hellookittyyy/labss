@@ -1,0 +1,248 @@
+body, p, h1, h2, h3, h4, h5 {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+button{
+    display: none;
+}
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    background-color:#0a1223 ;
+    color: #eee;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    padding: 25px 25px 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: larger;
+}
+
+nav a:hover{
+    color: #2178b6;
+}
+
+.content{
+    position: relative;
+    padding: 100px 200px;
+}
+
+.content>div{
+    display: flex;
+}
+
+
+.content>div:nth-child(2n) {
+    flex-direction: row;
+}
+
+.content>div:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+
+.card {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card p{
+    text-indent: 20px;
+    text-align: justify;
+    font-size: large;
+    color: #5d5d5d;
+}
+
+.card h4{
+    margin: 0;
+    font-size: 2em;
+    background: linear-gradient(to right, #FFFFFF 0%, #5F5F5F 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.card>div {
+    flex: 1;
+}
+
+.images {
+    text-align: center;
+}
+
+.text div:nth-child(n) {
+    display: flex;
+    flex-direction: row;
+}
+
+.text div:nth-child(n+1) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 1024px) {
+    button {
+        position: relative;
+        border: none;
+        background-color: #5ebcff;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        font-size: 14px;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+    }
+    button a {
+        color: white;
+        text-decoration: none;
+        margin-left: 2px;
+        font-size: large;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        padding: 15px 15px 0;
+    }
+    .content {
+        position: relative;
+        padding: 50px 100px;
+    }
+
+    .content>div {
+        flex-direction: column;
+        flex: 1 1 calc(100% - 40px);
+        gap: 15px;
+    }
+    
+    .content>div:nth-child(2n),
+    .content>div:nth-child(2n+1) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        position: relative;
+        border: none;
+        background-color: #5ebcff;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        font-size: 14px;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        margin: 0px 10px 10px;
+    }
+
+    button a {
+        color: white;
+        text-decoration: none;
+        margin-left: 2px;
+        font-size: large;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+ 
+    .nav a{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        color: #5F5F5F;
+    }
+    .nav a:hover{
+        color: #0a1223;
+    }
+    h1{
+        margin: 0 0 10px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 15px 0;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #FFFFFF;
+    }
+    .card h4 {
+        margin: 0;
+        font-size: 2em;
+        background: linear-gradient(to right, black 0%, black 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h1 {
+        color: black;
+        text-align: center;
+        font-size: 70px;
+
+    }
+    .content {
+        position: relative;
+        padding: 30px 70px;
+    }
+    .content>div {
+        flex-direction: column;
+        flex: 1 1 100%;
+        gap: 15px;
+    }
+
+    .content>div:nth-child(2n),
+    .content>div:nth-child(2n+1) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
