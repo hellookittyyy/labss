@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body 
+{
+    background-image: url("images/dark-wood.jpg");
+    background-size: repeat;
+
+}
+
+body > *
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    background-image: url("images/header-page.jpg");
+    background-size: cover;
+    color: black;
+    height: 200px;
+    text-align: right;
+}
+
+header h1 {
+    font-size: 5em;
+    margin-right: 20px;
+    line-height: 200px;
+}
+
+nav
+{
+    background-image: url("images/header-page.jpg");
+    background-size: cover;
+    color: white;
+    margin-top: 5px;
+}
+
+nav ul
+{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover
+{
+    color: black;
+}
+
+main 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article figure
+{
+    float: left;
+    width: 50%;
+    border: 1px solid #bebdbd5c;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+article img
+{
+  width: 100%;
+}
+
+article > div
+{
+    width: 50%;
+    padding:20px;
+    float: right;
+}
+
+article h2
+{
+    font-size: 2.2em;
+    color:#6e6e6e;
+}
+
+article h3
+{
+    font-size: 1.5em;
+    color: #e1ae22;
+}
+
+article p
+{
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+    font-size: 22px;
+    color: #999;
+}
+
+.courses{
+    border-right: 2px solid #bebdbd5c;
+    padding:30px 0 30px;
+    margin-left: 30px;
+}
+
+.courses article:after {
+    content: '';
+    display: block;
+    clear: both;
+    }
+
+aside{
+    width: 45%;
+    margin-left: 20px;
+    color: rgb(195, 84, 102);
+}
+
+aside h2{
+    font-size: 2.2em;
+    width: 50%;
+    margin-top: -95px;
+}
+
+aside a{
+    color: rgb(195, 84, 102);
+    text-decoration: none;
+}
+
+aside ul
+{
+    list-style-type: none;
+    font-size: 22px;
+    margin-right: 100px;
+}
+
+aside li{
+    
+    padding: 20px;
+    border-bottom: 1px solid #bebdbd5c;
+    width: 200px;
+}
+
+footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-image: url("images/header-page.jpg");
+    background-size: cover;
+    color: white;
+    bottom: 0;
+}
+
+figcaption{
+    color: #6e6e6e;
+
+}
