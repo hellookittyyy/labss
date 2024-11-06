@@ -1,0 +1,136 @@
+:root{
+    --black: #151515;
+    --white: #ffffff;
+    --main: #D5966c;
+    --secondary: #444444;
+ }
+
+.font-heading-xl{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.font-heading-l{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.font-heading-m{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.font-heading-s{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.font-body-m{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.font-body-s{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.button-first{
+    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 72px;
+    background: var(--black);
+    color: var(--white);
+    border: 0;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    position: relative;
+    transition: 0.2s;
+}
+
+.button-first::after{
+    content: url("./images/arrow.svg");
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 56px;
+    height: 100%;
+    background: var(--main);
+    color: var(--white);
+    position: absolute;
+    top: 0;
+    left: 204px;
+    transition: 0.2s;
+}
+
+.button-first:hover{
+    background: var(--main);
+}
+
+.button-first:hover::after{
+    background: var(--black);
+    color: var(--white);
+}
+
+.button-second{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 72px;
+    background: var(--black);
+    color: var(--white);
+    border: 0;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    position: relative;
+    transition: 0.2s;
+}
+
+.button-second::before{
+    content: url("./images/arrow-left.svg");
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 56px;
+    height: 100%;
+    background: var(--main);
+    color: var(--white);
+    position: absolute;
+    top: 0;
+    left: -56px;
+    transition: 0.2s;
+}
+
+
+.button-second:hover{
+    background: var(--main);
+}
+
+.button-second:hover::before{
+    background: var(--black);
+    color: var(--white);
+}

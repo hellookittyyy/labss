@@ -1,0 +1,232 @@
+@media (max-width: 768px) {
+
+    /* MAIN */
+    .header_image {
+        display: flex;
+        height: 70vh;
+        min-height: 700px;
+    }
+
+    .header_image>div {
+        display: flex;
+        height: 70vh;
+        min-height: 700px;
+    }
+
+    .white {
+        flex: 1;
+    }
+
+    .image {
+        margin-left: 0;
+        margin-right: auto;
+        flex: 2 !important;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .black {
+        display: none !important;
+    }
+
+    .header_content {
+        position: absolute;
+        width: 100%;
+        align-items: end;
+        top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        width: 300px;
+        color: black;
+        margin-right: 50px;
+    }
+
+
+    .header_button p {
+        width: 350px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .header_title h1 {
+        color: var(--black);
+        mix-blend-mode: darken;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+        width: 330px;
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 768px;
+    }
+
+    article {
+        width: 768px;
+        background-color: var(--white);
+        color: var(--black);
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article_head {
+        margin-right: 30px;
+    }
+
+    .article_head img {
+        width: 410px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .article_title {
+        width: 220px;
+        margin-left: 40px;
+    }
+
+    .article_images {
+        display: flex;
+        flex-direction: row;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: -30px;
+    }
+
+    .left_image img {
+        width: 398px;
+        height: 720px;
+        object-fit: fill;
+    }
+
+    .right_image img {
+        width: 280px;
+        height: 313px;
+        object-fit: cover;
+    }
+
+    .article_text {
+        width: 240px;
+        height: 305px;
+        background-color: var(--black);
+        color: var(--white);
+        padding: 70px 20px 0px;
+    }
+
+    .article_text h2 {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .article_text p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 60px 0 40px;
+        width: 100%;
+        background: var(--black);
+        color: var(--white);
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 689px;
+    }
+
+    .footer_text p {
+        width: 281px;
+    }
+
+    .footer_logo img {
+        width: 110px;
+    }
+
+    .footer_social {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer_social img {
+        width: 20px;
+    }
+
+    /* LOCATION PAGE */
+
+    #location_header {
+        background-image: url('./images/Group\ 4.png');
+        background-size:cover;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-second{
+        margin-left: 60px;
+    }
+
+    #location_header>div {
+        width: 700px;
+    }
+
+    .location_article{
+        margin-left: 39px;
+        margin-right: 39px;
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .location_article h1{
+        width: 223px;
+        font-size: 55px
+    }
+    .location h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .font-body-m p{
+        font-size: 18px;
+    }
+
+    .location_info{
+        width: 398px;
+        margin-top: 20px;
+    }
+
+    section{
+        padding: 85px 0;
+    }
+} 
+
+@media (max-width: 375px){
+    /* MAIN */
+
+    .header_image>div {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        min-height: 240px;
+    }
+
+}
