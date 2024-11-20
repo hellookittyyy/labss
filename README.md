@@ -26,3 +26,7 @@ https://hellookittyyy.github.io/labss/lab_06/
 lab_10:
 
 https://hellookittyyy.github.io/labss/lab_10/
+
+running_cat
+
+https://hellookittyyy.github.io/labss/running_cat/
