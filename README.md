@@ -19,6 +19,10 @@ lab_04:
 *its just one media left
 https://hellookittyyy.github.io/labss/lab_04/
 
+lab_06:
+
+https://hellookittyyy.github.io/labss/lab_06/
+
 lab_10:
 
 https://hellookittyyy.github.io/labss/lab_10/
