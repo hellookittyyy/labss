@@ -14,3 +14,11 @@ lab_03:
 
 https://hellookittyyy.github.io/labss/lab_03/
 
+lab_04:
+
+*its just one media left
+https://hellookittyyy.github.io/labss/lab_04/
+
+lab_10:
+
+https://hellookittyyy.github.io/labss/lab_10/
