@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>File Manager</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="images/close.png" alt="" />
+        <img src="images/maximize.png" alt="" />
+        <img src="images/minimize.png" alt="" />
+      </div>
+      <div class="content">
+        <ul class="open">
+          <li>
+            <img src="images/folder.png" alt="" />
+            <a onclick="openDir(this)">C:\</a>
+            <ul>
+              <li class="folder">
+                <img src="images/folder.png" alt="" />
+                <a onclick="openDir(this)">Program Files</a>
+                <ul>
+                  <li class="file">
+                    <img src="images/doc.png" alt="" />
+                    <a>Study.doc</a>
+                  </li>
+                  <li class="file">
+                    <img src="images/txt.png" alt="" />
+                    <a>logs.txt</a>
+                  </li>
+                  <li class="file">
+                    <img src="images/png.png" alt="" />
+                    <a>screenshoot_1201.png</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="folder">
+                <img src="images/folder.png" alt="" />
+                <a onclick="openDir(this)">Windows</a>
+                <ul>
+                  <li class="file">
+                    <img src="images/txt.png" alt="" />
+                    <a>config.txt</a>
+                  </li>
+                  <li class="file">
+                    <img src="images/png.png" alt="" />
+                    <a>icon.png</a>
+                  </li>
+                  <li class="folder">
+                    <img src="images/folder.png" alt="" />
+                    <a onclick="openDir(this)">System32</a>
+                    <ul>
+                      <li>Empty folder</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="folder">
+                <img src="images/folder.png" alt="" />
+                <a onclick="openDir(this)">Saves</a>
+                <ul>
+                  <li>Empty folder</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img src="images/folder.png" alt="" />
+            <a onclick="openDir(this)">D:\</a>
+            <ul>
+              <li>Empty folder</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
