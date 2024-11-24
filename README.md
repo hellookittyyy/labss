@@ -23,6 +23,10 @@ lab_06:
 
 https://hellookittyyy.github.io/labss/lab_06/
 
+lab_08:
+
+https://hellookittyyy.github.io/labss/lab_08/
+
 lab_10:
 
 https://hellookittyyy.github.io/labss/lab_10/
