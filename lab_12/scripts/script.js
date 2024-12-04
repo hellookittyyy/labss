@@ -13,7 +13,7 @@ function createPokemonCard(pokemon) {
   pokemonCard.classList.add("pokemon-card");
 
   pokemonCard.innerHTML = `
-    <a href="pokemon_info.html?id=${pokemon.url.split("/")[6]}">
+    <a href="index2.html?id=${pokemon.url.split("/")[6]}">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
         pokemon.url.split("/")[6]
       }.png" alt="${pokemon.name}" />
