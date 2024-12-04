@@ -26,6 +26,9 @@ TODO: its just one media left
 ### <ins> lab_10</ins>
 - https://hellookittyyy.github.io/labss/lab_10/
 
+### <ins> lab_12</ins>
+- https://hellookittyyy.github.io/labss/lab_12/
+
 ## Additional
 ### <ins> running_cat</ins>
 - https://hellookittyyy.github.io/labss/running_cat/
