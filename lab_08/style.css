@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  color: #eee;
+  overflow: hidden;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #969696;
+}
+
+.content {
+  padding: 20px;
+  height: 100%;
+  background-color: #790046e3;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  display: none;
+}
+
+ul.open {
+  display: block;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
