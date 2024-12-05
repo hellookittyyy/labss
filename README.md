@@ -20,6 +20,9 @@ TODO: its just one media left
 ### <ins> lab_06</ins>
 - https://hellookittyyy.github.io/labss/lab_06/
 
+### <ins> lab_07</ins>
+- https://hellookittyyy.github.io/labss/lab_07/
+
 ### <ins> lab_08</ins>
 - https://hellookittyyy.github.io/labss/lab_08/
 
