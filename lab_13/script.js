@@ -32,7 +32,10 @@ async function checkLogin() {
       return;
     }
 
-    if (window.location.href.indexOf("index.html") != -1) {
+    if (
+      window.location.href.indexOf("index.html") != -1 ||
+      window.location.href === "https://hellookittyyy.github.io/labss/lab_13/"
+    ) {
       const name = document.getElementById("username");
       name.innerText = auth.firstName;
       insertUsers();
