@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Cards Game</title>
+  </head>
+  <body>
+    <div class="level" id="level">
+      <h2>Choose level</h2>
+      <div>
+        <button class="buttons" onclick="startGame(2,2)">2x2</button>
+        <button class="buttons" onclick="startGame(2,3)">2x3</button>
+        <button class="buttons" onclick="startGame(2,4)">2x4</button>
+        <button class="buttons" onclick="startGame(2,5)">2x5</button>
+        <button class="buttons" onclick="startGame(3,4)">3x4</button>
+        <button class="buttons" onclick="startGame(4,4)">4x4</button>
+      </div>
+    </div>
+    <div class="game hidden" id="game">
+      <div class="info">
+        <p>
+          Rows:
+          <span id="rows">2</span>
+        </p>
+        <p>
+          Columns:
+          <span id="columns">2</span>
+        </p>
+        <p>
+          Tries:
+          <span id="score">0</span>
+        </p>
+      </div>
+      <div class="hidden" id="win">
+        <h2>You win!</h2>
+      </div>
+      <div class="game-container">
+        <div class="game-field" id="game-field">
+          <!-- <div class="card" id="card" onclick="flipCard(this)">
+            <div>
+              <img src="images/cat.png" alt="" />
+              <img src="images/cat-1.png" alt="" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="controls">
+        <button class="buttons" onclick="restartGame()">Restart Game</button>
+        <button class="buttons" onclick="finishGame()">Finish Game</button>
+        <button class="buttons" onclick="solution()">View Solution</button>
+      </div>
+    </div>
+  </body>
+</html>
