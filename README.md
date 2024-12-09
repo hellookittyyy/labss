@@ -32,6 +32,9 @@ TODO: its just one media left
 ### <ins> lab_10</ins>
 - [https://hellookittyyy.github.io/labss/lab_10/](https://hellookittyyy.github.io/labss/lab_10/)
 
+### <ins> lab_11</ins>
+- [https://hellookittyyy.github.io/labss/lab_11/](https://hellookittyyy.github.io/labss/lab_11/)
+
 ### <ins> lab_12</ins>
 - [https://hellookittyyy.github.io/labss/lab_12/](https://hellookittyyy.github.io/labss/lab_12/)
 
